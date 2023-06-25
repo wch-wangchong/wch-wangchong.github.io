@@ -3,14 +3,14 @@
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
+[![deploy](https://github.com/alshedivat/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/actions/workflows/deploy.yml)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/)
+[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/graphs/contributors/)
 [![Maintainers][maintainers]](#maintainers)
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/fork)
 
 [![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
 [![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
@@ -19,7 +19,7 @@
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
 
-[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+[![Preview](https://raw.githubusercontent.com/alshedivat/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/)
 
 ## User community
 
@@ -147,7 +147,7 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 
 ## Lighthouse PageSpeed Insights
 
-[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
+[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
 ## Table Of Contents
 
@@ -248,7 +248,7 @@ After you are done, **commit** your final changes.
 #### Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
-Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
+Starting version [v0.3.5](https://github.com/alshedivat/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
 
@@ -384,21 +384,21 @@ If rebasing is too complicated, we recommend re-installing the new version of th
 ### FAQ
 
 Here are some frequently asked questions.
-If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
+If you have a different question, please ask using [Discussions](https://github.com/alshedivat/discussions/categories/q-a).
 
 1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
    Isn't the website supposed to correctly deploy automatically? <br>
    **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
    Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
-   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
+   (Relevant issue: [209](https://github.com/alshedivat/issues/209#issuecomment-798849211).)
 
 2. **Q:** I am using a custom domain (e.g., `foo.com`).
    My custom domain becomes blank in the repository settings after each deployment.
    How do I fix that? <br>
    **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
    The file should contain your custom domain name.
-   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
+   (Relevant issue: [130](https://github.com/alshedivat/issues/130).)
 
 3. **Q:** My webpage works locally.
     But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
@@ -431,7 +431,7 @@ Your publications' page is generated automatically from your BibTex bibliography
 Simply edit `_bibliography/papers.bib`.
 You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/publications-screenshot.png" width=800></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/master/assets/img/publications-screenshot.png" width=800></p>
 
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
@@ -504,7 +504,7 @@ The theme comes with two default collections: `news` and `projects`.
 Items from the `news` collection are automatically displayed on the home page.
 Items from the `projects` collection are displayed on a responsive grid on projects page.
 
-<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/projects-screenshot.png" width=700></p>
+<p align="center"><img src="https://raw.githubusercontent.com/alshedivat/master/assets/img/projects-screenshot.png" width=700></p>
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
 To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
@@ -519,17 +519,17 @@ To do this, edit the collections in the `_config.yml` file, create a correspondi
 
 The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
 
-<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2021/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/distill-screenshot.png" width=700></a></p>
+<p align="center"><a href="https://alshedivat.github.io/blog/2021/distill/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/master/assets/img/distill-screenshot.png" width=700></a></p>
 
-For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2021/distill/).
+For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/blog/2021/distill/).
 
 #### Full support for math & code
 
 **al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
 
 <p align="center">
-<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/math-screenshot.png" width=400></a>
-<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/code-screenshot.png" width=400></a>
+<a href="https://alshedivat.github.io/blog/2015/math/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/master/assets/img/math-screenshot.png" width=400></a>
+<a href="https://alshedivat.github.io/blog/2015/code/" target="_blank"><img src="https://raw.githubusercontent.com/alshedivat/master/assets/img/code-screenshot.png" width=400></a>
 </p>
 
 #### Photos
@@ -538,8 +538,8 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 Easily create beautiful grids within your blog posts and project pages:
 
 <p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/photos-screenshot.png" width="75%">
+  <a href="https://alshedivat.github.io/projects/1_project/">
+    <img src="https://raw.githubusercontent.com/alshedivat/master/assets/img/photos-screenshot.png" width="75%">
   </a>
 </p>
 
@@ -656,7 +656,7 @@ If you are interested, please reach out!
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
+The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/blob/master/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
